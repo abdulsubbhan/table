@@ -1,0 +1,84 @@
+body{
+    margin: 10em;
+    background-image: url(image/solo-leveling-sung-jinwoo-statue-of-god-4k-wallpaper-uhdpaper.com-142@2@b.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: "Verdana", "Helvetica", "Arial", sans-serif;
+
+
+}
+/* #div-table{
+    background-image: url(image/work.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+.Yes:hover{
+    
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    background-color:rgb(6, 173, 31) ;
+    box-shadow: 12px 2px 12px rgba(0,0,0,0.1) , -10px -10px 10px white  inset;
+ }
+ .No:hover{
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    background-color:rgba(142, 31, 31, 0.078) ;
+    box-shadow: 12px 12px 12px rgba(41, 1, 1, 0.1) , -10px -10px 10px white  inset;
+ }
+
+a:hover{
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+
+    background-color:rgba(142, 31, 31, 0.078) ;
+    box-shadow: 1px 1px 1px rgba(41, 1, 1, 0.1) , -10px -10px 10px white  inset;
+ }
+table {
+    
+    background-color: rgba(255, 255, 255, 0.15); /* White with 15% opacity */
+    border-radius: 10px; /* Optional: adds rounded corners */
+}
+table{
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+#div-table th , #div-table td, a{
+    color: rgb(187, 1, 88);
+    
+    text-align: left;
+    padding: 12px 18px;
+ 
+}
+a{
+    display: flex;
+
+}
+.yes i{
+    color: rgb(0, 104, 3);
+}
+.no i{
+    color: rgb(104, 0, 0);
+}
+.yes span , .no span{
+    color: rgb(187, 1, 88);
+
+}
+.table-row:hover{
+    background-color: rgba(255, 255, 255, 0.15);
+    
+}
+
+/* #div-table th{
+    border-top: 2px solid lightskyblue;
+    border-right: 2px solid lightskyblue;
+    
+}
+#div-table td{
+    border-bottom: 2px solid rgb(14, 11, 184);
+} */
+ /* Basic table styling */
+ 
